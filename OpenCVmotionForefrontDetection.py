@@ -1,8 +1,7 @@
 """ Description: Uses OpenCV to visually eliminate non-moving objects contained
-within the video file, displaying moving items within the video-file in a vivid
-white color for better recognition.
-Enables better video-analysis for applications such as object-detection in
-moving images. 
+within the video file enabling motion-forefront detection. Moving items within the video-file are displayed in a vivid
+white color allowing for clearer recognition.
+Enables better video-analysis for applications such as object-detection in moving images. 
 """
 import cv2
 import numpy as np
